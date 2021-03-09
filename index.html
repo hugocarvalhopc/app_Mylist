@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <h2 class="alinhar">Lista de Compras</h2>
+    </header>
+
+
+    <section>
+
+        <div id="interacao">
+            ITEM: <input type="text" id="fitem">
+            <button class="btn btn-sm btn-primary" onclick="adicionar()" >ADICIONAR</button>
+        </div>
+
+        <div id="area-list">
+            <select name="" id="lista" size="10" class="alinhar">
+
+            </select>
+
+        </div>
+
+        <div class="alinhar">
+           <button class="btn btn-sm btn-danger" onclick="limpar()">LIMPAR</button>
+        </div>
+        
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
